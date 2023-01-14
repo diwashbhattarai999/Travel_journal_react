@@ -1,0 +1,66 @@
+.card-container{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 900px;
+    margin: 2.5rem auto;
+}
+.title-img{
+    min-width: 240px;
+    max-height: 280px;
+    aspect-ratio: 1/2;
+    margin-right: 1.6rem;
+    border-radius: .4rem;
+}
+.location-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: .6rem;
+}
+.location-img{
+    color: #F55A5A;
+    margin-right: .2rem;
+}
+.location-country{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-right: .4rem;
+    color: #2B283A;
+}
+.location-url{
+    font-size: 1rem;
+    color: #918E9B;
+    border-bottom: 1px solid #918E9B;
+}
+.location-title{
+    color: #2B283A;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+}
+.location-date{
+    color: #2B283A;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: .6rem;
+}
+.location-intro{
+    color: #2B283A;
+    font-size: 1rem;
+}
+
+@media screen and (max-width:640px) {
+    .card-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .title-img{
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    .location-info{
+        justify-content: center;
+    }
+}
