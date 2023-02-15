@@ -9,7 +9,7 @@ This Scrimba project is a travel journal, built using React and hosted on Netlif
 
 ## Link 🔗
 
-- Hosted on Netlify: https://my-travel-journal-diwash-426817.netlify.app/
+- Hosted on Netlify: https://my-travel-journal-diwash.netlify.app/
 
 ## Getting Started 🏁
 
